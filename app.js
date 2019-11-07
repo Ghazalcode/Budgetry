@@ -366,7 +366,7 @@ var appController = (function(budgetCtl, UICtrl) {
         budget = budgetCtl.getBudget();
 
         //3. Display the budget in the UI
-        UICtrl.displayBudget(budget.budget,budget.totalInc,budget.totalExp, budget.percentage);
+        UICtrl.displayBudget(budget);
     };  
     
     
